@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC3EF90D251D5D56003DAE8D /* detailviewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3EF90C251D5D56003DAE8D /* detailviewcontroller.swift */; };
+		DCCC73B9251C0B750063AE87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCC73B8251C0B750063AE87 /* AppDelegate.swift */; };
+		DCCC73BB251C0B750063AE87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCC73BA251C0B750063AE87 /* ViewController.swift */; };
+		DCCC73BE251C0B750063AE87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCCC73BC251C0B750063AE87 /* Main.storyboard */; };
+		DCCC73C0251C0B770063AE87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCCC73BF251C0B770063AE87 /* Assets.xcassets */; };
+		DCCC73C3251C0B770063AE87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCCC73C1251C0B770063AE87 /* LaunchScreen.storyboard */; };
+		DCCC73CB251C12400063AE87 /* listviewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCC73CA251C12400063AE87 /* listviewcontroller.swift */; };
+		DCCC73CD251C19010063AE87 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCC73CC251C19010063AE87 /* TableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC3EF90C251D5D56003DAE8D /* detailviewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailviewcontroller.swift; sourceTree = "<group>"; };
+		DCCC73B5251C0B750063AE87 /* welding-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "welding-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCCC73B8251C0B750063AE87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCCC73BA251C0B750063AE87 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCCC73BD251C0B750063AE87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCCC73BF251C0B770063AE87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCCC73C2251C0B770063AE87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCCC73C4251C0B770063AE87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCCC73CA251C12400063AE87 /* listviewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listviewcontroller.swift; sourceTree = "<group>"; };
+		DCCC73CC251C19010063AE87 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCCC73B2251C0B750063AE87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCCC73AC251C0B750063AE87 = {
+			isa = PBXGroup;
+			children = (
+				DCCC73B7251C0B750063AE87 /* welding-app */,
+				DCCC73B6251C0B750063AE87 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCCC73B6251C0B750063AE87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCCC73B5251C0B750063AE87 /* welding-app.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCCC73B7251C0B750063AE87 /* welding-app */ = {
+			isa = PBXGroup;
+			children = (
+				DCCC73B8251C0B750063AE87 /* AppDelegate.swift */,
+				DCCC73BF251C0B770063AE87 /* Assets.xcassets */,
+				DCCC73C1251C0B770063AE87 /* LaunchScreen.storyboard */,
+				DCCC73C4251C0B770063AE87 /* Info.plist */,
+				DCCC73BA251C0B750063AE87 /* ViewController.swift */,
+				DCCC73BC251C0B750063AE87 /* Main.storyboard */,
+				DCCC73CA251C12400063AE87 /* listviewcontroller.swift */,
+				DCCC73CC251C19010063AE87 /* TableViewCell.swift */,
+				DC3EF90C251D5D56003DAE8D /* detailviewcontroller.swift */,
+			);
+			path = "welding-app";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCCC73B4251C0B750063AE87 /* welding-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCCC73C7251C0B770063AE87 /* Build configuration list for PBXNativeTarget "welding-app" */;
+			buildPhases = (
+				DCCC73B1251C0B750063AE87 /* Sources */,
+				DCCC73B2251C0B750063AE87 /* Frameworks */,
+				DCCC73B3251C0B750063AE87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "welding-app";
+			productName = "welding-app";
+			productReference = DCCC73B5251C0B750063AE87 /* welding-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCCC73AD251C0B750063AE87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Cotemig;
+				TargetAttributes = {
+					DCCC73B4251C0B750063AE87 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = DCCC73B0251C0B750063AE87 /* Build configuration list for PBXProject "welding-app" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCCC73AC251C0B750063AE87;
+			productRefGroup = DCCC73B6251C0B750063AE87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCCC73B4251C0B750063AE87 /* welding-app */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCCC73B3251C0B750063AE87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCCC73C3251C0B770063AE87 /* LaunchScreen.storyboard in Resources */,
+				DCCC73C0251C0B770063AE87 /* Assets.xcassets in Resources */,
+				DCCC73BE251C0B750063AE87 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCCC73B1251C0B750063AE87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC3EF90D251D5D56003DAE8D /* detailviewcontroller.swift in Sources */,
+				DCCC73BB251C0B750063AE87 /* ViewController.swift in Sources */,
+				DCCC73CD251C19010063AE87 /* TableViewCell.swift in Sources */,
+				DCCC73CB251C12400063AE87 /* listviewcontroller.swift in Sources */,
+				DCCC73B9251C0B750063AE87 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DCCC73BC251C0B750063AE87 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCCC73BD251C0B750063AE87 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCCC73C1251C0B770063AE87 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCCC73C2251C0B770063AE87 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCCC73C5251C0B770063AE87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCCC73C6251C0B770063AE87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCCC73C8251C0B770063AE87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "welding-app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.cotemig.welding-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCCC73C9251C0B770063AE87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "welding-app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.cotemig.welding-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCCC73B0251C0B750063AE87 /* Build configuration list for PBXProject "welding-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCCC73C5251C0B770063AE87 /* Debug */,
+				DCCC73C6251C0B770063AE87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCCC73C7251C0B770063AE87 /* Build configuration list for PBXNativeTarget "welding-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCCC73C8251C0B770063AE87 /* Debug */,
+				DCCC73C9251C0B770063AE87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCCC73AD251C0B750063AE87 /* Project object */;
+}
